@@ -87,5 +87,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
+define(‘CONCATENATE_SCRIPTS’, false );
 require_once( ABSPATH . 'wp-settings.php' );
 
